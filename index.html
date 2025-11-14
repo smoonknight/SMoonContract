@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>Contract Viewer</title>
-    <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmoonContract Hub</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="box">
-        <h2>Contract Viewer</h2>
+<div class="container">
+    <h1 class="neon-text">SmoonContract Hub</h1>
 
+    <div class="input-group">
         <input id="guidInput" type="text" placeholder="Enter GUID..." />
-        <button onclick="loadContract()">Load Contract</button>
-
-        <pre id="result"></pre>
+        <button onclick="loadContract()">Load</button>
     </div>
 
-    <script src="script.js"></script>
+    <pre id="result" class="result"></pre>
+</div>
+
+<!-- Floating neon particles -->
+<div class="particles">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>

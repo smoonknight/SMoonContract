@@ -1,0 +1,26 @@
+{
+    "name": "smooncontract",
+    "version": "1.0.0",
+    "description": "SmoonContract is a simple feature that lets your application check a remote JSON file to decide whether it is allowed to run. The JSON file can be hosted on any static website, making it easy to control app access without updating the app itself.",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npx tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/smoonknight/SMoonContract.git"
+    },
+    "author": "SMoonKnight",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/smoonknight/SMoonContract/issues"
+    },
+    "homepage": "https://github.com/smoonknight/SMoonContract#readme",
+    "dependencies": {
+        "@types/node": "^24.10.1",
+        "dotenv": "^17.2.3",
+        "tslib": "^2.8.1",
+        "typescript": "^5.9.3"
+    }
+}

@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "npx tsc",
-        "start": "node main"
+        "start": "npm run build && node main"
     },
     "repository": {
         "type": "git",
